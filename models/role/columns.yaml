@@ -1,0 +1,13 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: void.creator::lang.role.id
+        invisible: true
+
+    name:
+        label: void.creator::lang.role.name
+        searchable: true

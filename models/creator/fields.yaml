@@ -1,0 +1,20 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    user:
+        label: rainlab.user::lang.user.label
+        type: relation
+        nameFrom: name
+
+    # creation:
+    #     label: void.creator::lang.creator.creation
+    #     type: relation
+    #     nameFrom: name
+
+    roles:
+        label: void.creator::lang.creator.roles
+        type: relation
+        nameFrom: name

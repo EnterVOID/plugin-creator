@@ -1,0 +1,11 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: void.creator::lang.role.name
+        description: void.creator::lang.role.name_desc
+        span: auto
+        required: true

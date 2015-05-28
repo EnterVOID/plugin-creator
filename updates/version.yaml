@@ -1,0 +1,5 @@
+1.0.1:
+    - Initialize plugin.
+    - create_creators_table.php
+    - create_roles_table.php
+    - create_creators_roles_join_table.php

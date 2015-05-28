@@ -1,0 +1,27 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: void.creator::lang.creator.id
+        invisible: true
+
+    user:
+        label: rainlab.user::lang.user.label
+        relation: user
+        select: name
+        searchable: true
+
+    # creation:
+    #     label: void.creator::lang.creator.creation
+    #     relation: creation
+    #     select: name
+    #     searchable: true
+
+    roles:
+        label: void.creator::lang.creator.roles
+        relation: roles
+        select: name
+        searchable: true

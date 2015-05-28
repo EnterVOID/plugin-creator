@@ -1,0 +1,20 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+title: void.creator::lang.creators.list_title
+list: ~/plugins/void/creator/models/creator/columns.yaml
+modelClass: Void\Creator\Models\Creator
+recordUrl: void/creator/creators/update/:id
+noRecordsMessage: backend::lang.list.no_records
+recordsPerPage: 20
+showCheckboxes: true
+showSetup: true
+
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: backend::lang.list.search_prompt
+
+
+

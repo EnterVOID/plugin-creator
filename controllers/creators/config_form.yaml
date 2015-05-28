@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: void.creator::lang.creator.label
+form: ~/plugins/void/creator/models/creator/fields.yaml
+modelClass: Void\Creator\Models\Creator
+defaultRedirect: void/creator/creators
+
+create:
+    redirect: void/creator/creators/update/:id
+    redirectClose: void/creator/creators
+
+update:
+    redirect: void/creator/creators
+    redirectClose: void/creator/creators
